@@ -41,9 +41,9 @@
 ## Existing Packages
 
 I've computed the set of all the existing packages that contain types that ship
-in .NET Framework. I've then annotated which one these packages are already part
-of .NET Core, .NET Standard, and whether they are already referenced from the
-[compat pack](https://github.com/dotnet/corefx/blob/master/pkg/Microsoft.NETFramework.Compatibility/Microsoft.NETFramework.Compatibility.pkgproj#L16).
+in .NET Framework. I've then annotated which one of these packages are already
+part of .NET Core (which includes .NET Standard), and whether they are already
+referenced from the [compat pack](https://github.com/dotnet/corefx/blob/master/pkg/Microsoft.NETFramework.Compatibility/Microsoft.NETFramework.Compatibility.pkgproj#L16).
 
 The proposal is to add all the packages that aren't part of .NET Core. Funny
 enough this means three packages shouldn't be part of the compat pack but are
