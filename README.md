@@ -38,6 +38,10 @@
     - Compat pack should ideally be a separate repo with a policy of no feature
       work being accepted.
 
+## Proposal
+
+
+
 ## Missing Functionality
 
 We use the `netfx-compat-pack` label on GitHub to track issues asking for adding
@@ -45,20 +49,24 @@ missing .NET Framework functionality to .NET Core.
 
 https://github.com/dotnet/corefx/issues?q=is%3Aopen+is%3Aissue+label%3Anetfx-compat-pack
 
-* OPEN - [#11857](https://github.com/dotnet/corefx/issues/11857): System.ComponentModel.Composition (MEF1)
-* OPEN - [#13035](https://github.com/dotnet/corefx/issues/13035): System.Data.Odbc Namespace
-* OPEN - [#14529](https://github.com/dotnet/corefx/issues/14529): System.Runtime.Caching
-* OPEN - [#14762](https://github.com/dotnet/corefx/issues/14762): System.Management - WMI
-* OPEN - [#2089](https://github.com/dotnet/corefx/issues/2089): System.DirectoryServices
-* OPEN - [#3906](https://github.com/dotnet/corefx/issues/3906): PerformanceCounters
-* OPEN - [#5766](https://github.com/dotnet/corefx/issues/5766): System.Xaml
-* OPEN - [#6913](https://github.com/dotnet/corefx/issues/6913): EventLog
-* OPEN - [#8723](https://github.com/dotnet/corefx/issues/8723): WCF message security
-* DONE - [#11545](https://github.com/dotnet/corefx/issues/11545): System.Drawing
-* DONE - [#19771](https://github.com/dotnet/corefx/issues/19771): System.Data.DatasetExtensions
-* DONE - [#6024](https://github.com/dotnet/corefx/issues/6024): System.ServiceProcess.ServiceController & ServiceBase
-* DECLIEND - [#6920](https://github.com/dotnet/corefx/issues/6920): System.Addin
-* DECLINED - [#2394](https://github.com/dotnet/corefx/issues/2394): Workflow Foundation
+Current status:
+
+| Status   | ID                                                     | Title                                                |
+|----------|--------------------------------------------------------|------------------------------------------------------|
+| OPEN     | [11857](https://github.com/dotnet/corefx/issues/11857) | System.ComponentModel.Composition (MEF1)
+| OPEN     | [13035](https://github.com/dotnet/corefx/issues/13035) | System.Data.Odbc
+| OPEN     | [14529](https://github.com/dotnet/corefx/issues/14529) | System.Runtime.Caching
+| OPEN     | [14762](https://github.com/dotnet/corefx/issues/14762) | System.Management (WMI)
+| OPEN     | [2089](https://github.com/dotnet/corefx/issues/2089)   | System.DirectoryServices
+| OPEN     | [3906](https://github.com/dotnet/corefx/issues/3906)   | System.Diagnostics.PerformanceCounter
+| OPEN     | [5766](https://github.com/dotnet/corefx/issues/5766)   | System.Xaml
+| OPEN     | [6913](https://github.com/dotnet/corefx/issues/6913)   | System.Diagnostics.EventLog
+| OPEN     | [8723](https://github.com/dotnet/corefx/issues/8723)   | System.ServiceModel (WCF) Message Security
+| DONE     | [11545](https://github.com/dotnet/corefx/issues/11545) | System.Drawing
+| DONE     | [19771](https://github.com/dotnet/corefx/issues/19771) | System.Data.DatasetExtensions
+| DONE     | [6024](https://github.com/dotnet/corefx/issues/6024)   | System.ServiceProcess.ServiceController & ServiceBase
+| DECLIEND | [6920](https://github.com/dotnet/corefx/issues/6920)   | System.Addin
+| DECLINED | [2394](https://github.com/dotnet/corefx/issues/2394)   | System.Activities (WF)
 
 ## Existing Packages
 
